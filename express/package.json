@@ -1,0 +1,27 @@
+{
+  "name": "node-lab1",
+  "version": "1.0.0",
+  "description": "node lab 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore takeawaydeals-app/* --exec babel-node index.js"
+  },
+  "author": "OliverBaverstock",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.0"
+  }
+}
